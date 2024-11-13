@@ -5,13 +5,11 @@
     "url": "https://www.mitra.biz"
   },
   "browserslist": "> 20%, not dead",
-  "bugs": "https://github.com/mitra42/html-element-extended/issues",
-  "description": "A simple wrapper for web components and some examples",
+  "bugs": "https://github.com/mitra42/video-element-extended/issues",
+  "description": "A simple wrapper for a variety of videos in webcomponents",
   "dependencies": {
-    "qrcode-generator-es6": "^1.1.4",
+    "html-element-extended": "^0.0.12",
     "webtorrent": "^2.1.25",
-    "@undecaf/zbar-wasm": "^0.9.11",
-    "@undecaf/barcode-detector-polyfill": "^0.9.13"
   },
   "devDependencies": {
     "eslint": "^7.27.0",
@@ -21,16 +19,13 @@
     "eslint-plugin-jest": "^24.3.6"
   },
   "exports": {
-    "./htlmelementextended.js": "./htlmelementextended.js",
-    "./qrelementextended.js": "./qrelementextended.js",
     "./videoelementextended.js": "./videoelementextended.js",
-    "./eventbus.js": "./eventbus.js"
   },
-  "homepage": "https://github.com/mitra42/html-element-extended",
-  "keywords": ["web components"],
+  "homepage": "https://github.com/mitra42/video-element-extended",
+  "keywords": ["web components","video","webtorrent"],
   "license": "AGPL-3.0",
-  "name": "html-element-extended",
+  "name": "video-element-extended",
   "scripts": {},
   "type": "module",
-  "version": "0.0.12"
+  "version": "0.1.0"
 }

@@ -1,4 +1,4 @@
-import { EL, HTMLElementExtended } from './htmlelementextended.js';
+import { EL, HTMLElementExtended } from '../html-element-extended/htmlelementextended.js';
 //TODO this presumes webtorrent is installed as a peer, that may not be true, ideally
 //TODO should split videoelementextended to its own repo that requires webtorrent and html-element-extended
 import WebTorrent from '../webtorrent/dist/webtorrent.min.js';
